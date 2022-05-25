@@ -1,4 +1,44 @@
 body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     flex-direction: column;
+}
+
+.block1 {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}    
+
+.header-left {
+    font-weight: bolder;
+    font-size: 24px;
+    color: #f9faf8;
+    display: flex;
+    flex: 1;
+}
+
+.header-right {
+    font-size: 18px;
+    color: #e5e7eb;
+    list-style-type: none;
+    display: flex;
+}
+
+.header-right li {
+    padding-left: 14px;
+}
+
+.block1-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
