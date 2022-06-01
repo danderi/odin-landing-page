@@ -81,7 +81,7 @@ button {
    border-radius: 8%;
    max-width: 90px;
    height: 32px;
-   padding: 0px;
+   padding: 8px 16px;
 }
 
 .block1-right {
@@ -122,4 +122,25 @@ h2 {
 
 .block2-sub p {
     max-width: 140px;
+}
+
+.block3 {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+    padding: 120px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li.author {
+    display:flex;
+    justify-content: end;
+    font-size: 24px;
+    font-weight: bolder;
+    padding-top: 2px;
 }
