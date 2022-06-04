@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
@@ -143,4 +145,17 @@ li.author {
     font-size: 24px;
     font-weight: bolder;
     padding-top: 2px;
+}
+
+.block4 {
+    display: flex;
+    align-items: center;
+    padding: 120px;
+    justify-content: center;
+}
+
+.block4 button{
+    display: flex;
+    flex: 1;
+    justify-content: center;
 }
