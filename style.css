@@ -24,16 +24,19 @@ body {
     color: #f9faf8;
     display: flex;
     flex: 1;
+    height: 100px;
+    padding-top: 1em;
 }
 
 .header-right {
     font-size: 18px;
     list-style-type: none;
-    display: flex;
+    display: flex; 
+    gap: 22px 
 }
 
 .header-right li {
-    padding-left: 14px;
+    padding-left: 22px;
 }
 
 a {
@@ -41,15 +44,19 @@ a {
     color: #e5e7eb;
 }
 
+
 /* Block1 mainly called Hero */
 
 .block1 {
     background-color: #1f2937;
     display: flex;
     padding: 120px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     margin: 0px;
     border: 0px;
     align-items: center;
+    gap: 16px;
 }
 
 .block1 > * {
@@ -92,9 +99,11 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: gray;
     color: #f9faf8;
     height: 308px;
+    background-image: url(img/logo.jpg);
+    background-position: center;
+    background-size: 100%;
 }
 
 h2 {
@@ -111,8 +120,6 @@ h2 {
     align-items: center;
     justify-content: center;
     gap: 50px;
-    padding-left: 120px;
-    padding-right: 120px;
     padding-bottom: 120px;
     flex-wrap: wrap;
 }
@@ -120,14 +127,18 @@ h2 {
 .block2-sub div {
     align-items: center;
     justify-content: center;
-    height: 140px;
+}
+
+.block2-sub div img{
+    height: 220px;
     width: 140px;
-    color: rebeccapurple;
-    background-color: black;
+    background-size: 50%;
 }
 
 .block2-sub p {
     max-width: 140px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
 }
 
 /* Block3 quotation or testimony */
