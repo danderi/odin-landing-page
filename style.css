@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: flex;
-    flex-direction: column;
+    font-family: Roboto, sans-serif;
     margin: 0px;
 }
+
+/* header: Logo and links*/
 
 .header {
     background-color: #1f2937;
@@ -40,6 +40,8 @@ a {
     text-decoration: none;
     color: #e5e7eb;
 }
+
+/* Block1 mainly called Hero */
 
 .block1 {
     background-color: #1f2937;
@@ -79,7 +81,7 @@ button {
    background-color: #3882f6;
    color: #f9faf8; 
    font-weight: 700;
-   border: none;
+   border-color: #3882f6;
    border-radius: 8%;
    max-width: 90px;
    height: 32px;
@@ -101,6 +103,8 @@ h2 {
     font-weight: bolder;
     color:#1f2937;
 }
+
+/* Block2 pictures and text */
 
 .block2 {
     display: flex;
@@ -126,6 +130,8 @@ h2 {
     max-width: 140px;
 }
 
+/* Block3 quotation or testimony */
+
 .block3 {
     background-color: #e5e7eb;
     color: #1f2937;
@@ -147,15 +153,53 @@ li.author {
     padding-top: 2px;
 }
 
+/* Block4 call to action */
+
 .block4 {
-    display: flex;
-    align-items: center;
-    padding: 120px;
-    justify-content: center;
+  margin: 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:120px;
 }
 
-.block4 button{
+.modal {
+    background: #3882f6;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
     display: flex;
-    flex: 1;
+    gap: 16px;
+    padding: 16px;
+    align-items: center;
+    justify-content: space-around;
+    width: 900px;
+    flex-shrink: 1;
+    min-height: 100px;
+  }
+
+div p {
+    margin:0;
+}
+
+p strong {
+    font-size: 24px;
+}
+
+button.button2 {
+    border-style: solid;
+    border-color: whitesmoke;
+    border-width: 2px;
+    display:flex;
+}
+
+/* footer  just the footer */
+
+.footer {
+    background-color: #1f2937;
+    color:#e5e7eb;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100px;
 }
